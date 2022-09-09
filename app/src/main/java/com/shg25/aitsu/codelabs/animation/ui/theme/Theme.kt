@@ -14,14 +14,21 @@
  * limitations under the License.
  */
 
-package com.shg25.aitsu.codelabs.animation.ui
+package com.shg25.aitsu.codelabs.animation.ui.theme
 
-import androidx.compose.ui.graphics.Color
+import androidx.compose.material.MaterialTheme
+import androidx.compose.material.lightColors
+import androidx.compose.runtime.Composable
 
-val Purple100 = Color(0xFFE1BEE7)
-val Purple500 = Color(0xFF6200EE)
-val Purple700 = Color(0xFF3700B3)
-val Teal200 = Color(0xFF03DAC5)
-val Green300 = Color(0xFF81C784)
-val Green800 = Color(0xFF2E7D32)
-val Amber600 = Color(0xFFFFB300)
+@Composable
+fun AnimationCodelabTheme(content: @Composable () -> Unit) {
+    val colors = lightColors(
+        primary = Purple500,
+        primaryVariant = Purple700,
+        secondary = Teal200
+    )
+    MaterialTheme(
+        colors = colors,
+        content = content
+    )
+}

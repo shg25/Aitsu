@@ -112,6 +112,7 @@ import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.shg25.aitsu.R
+import com.shg25.aitsu.codelabs.animation.ui.theme.*
 import com.shg25.aitsu.ui.theme.Purple700
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.delay

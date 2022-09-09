@@ -1,8 +1,5 @@
-package com.shg25.aitsu.ui
+package com.shg25.aitsu.codelabs.layouts.ui
 
-import android.os.Bundle
-import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
@@ -30,19 +27,12 @@ import com.shg25.aitsu.R
 import com.shg25.aitsu.ui.theme.AitsuTheme
 import java.util.*
 
-class BasicLayoutsActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContent {
-            AitsuTheme {
-                MyApp()
-            }
-        }
-    }
-}
-
+/**
+ *
+ * https://developer.android.com/codelabs/jetpack-compose-layouts?hl=ja
+ */
 @Composable
-private fun MyApp() {
+fun Home() {
 
 }
 
